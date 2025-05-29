@@ -367,9 +367,6 @@ Function Get-NmeHostPoolAutoScaleConfig {
 		$Result | Add-Member -NotePropertyName 'hostPoolName' -NotePropertyValue $hostPoolName -erroraction 'SilentlyContinue'
 		$result = $Result | CapProps
 		$Result.AutoScaleTriggers = @($result.autoScaleTriggers)
-		if ($Result.RollingDrainMode.Windows -eq $null) {
-			$result = ($result | select -Property *  -ExcludeProperty RollingDrainMode)
-		}
 		$Result.PSObject.TypeNames.Insert(0, 'NmeDynamicPoolConfiguration')
 		$result
 	}
