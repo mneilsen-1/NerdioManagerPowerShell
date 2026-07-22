@@ -29,7 +29,7 @@ Link Azure subscription
 ```powershell
 New-NmeLinkedSubscription `
     -SubscriptionId "e0b52e85-7caf-4260-a772-c0d82e56d407" `
-    -TenantId "2dbe50df-13f6-494b-835d-fe9c532b0c66"
+    -TenantId "dc241a32-1d84-464c-a4eb-5b88a071ff3e"
 ```
 
 ### Example 2: Link subscription using app credentials
@@ -37,8 +37,8 @@ New-NmeLinkedSubscription `
 ```powershell
 New-NmeLinkedSubscription `
     -SubscriptionId "e0b52e85-7caf-4260-a772-c0d82e56d407" `
-    -TenantId "2dbe50df-13f6-494b-835d-fe9c532b0c66" `
-    -ServicePrincipalAppId "3ec2ef49-aa69-4200-b783-38118bb68565" `
+    -TenantId "dc241a32-1d84-464c-a4eb-5b88a071ff3e" `
+    -ServicePrincipalAppId "49969ccb-3430-4957-94db-3594c60c60c4" `
     -ServicePrincipalAppSecret "_ASFsaf97asf9a7sfoa_~~2143" `
     -ServicePrincipalAzureType "AzureCloud"
 ```

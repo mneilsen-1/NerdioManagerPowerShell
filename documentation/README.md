@@ -130,6 +130,9 @@
 | POST | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/schedule-v2/reimage` | [New-NmeHostPoolReimageSchedule](cmdlets/New-NmeHostPoolReimageSchedule.md) |
 | POST | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/schedule-v2/script-execution` | [New-NmeHostPoolRunScriptSchedule](cmdlets/New-NmeHostPoolRunScriptSchedule.md) |
 | POST | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/script-execution` | [Invoke-NmeHostPoolRunScript](cmdlets/Invoke-NmeHostPoolRunScript.md) |
+| DELETE | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/scripted-actions` | [Remove-NmeHostPoolScriptedAction](cmdlets/Remove-NmeHostPoolScriptedAction.md) |
+| GET | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/scripted-actions` | [Get-NmeHostPoolScriptedAction](cmdlets/Get-NmeHostPoolScriptedAction.md) |
+| PATCH | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/scripted-actions` | [Update-NmeHostPoolScriptedAction](cmdlets/Update-NmeHostPoolScriptedAction.md) |
 | GET | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/session-timeout` | [Get-NmeHostPoolSessionTimeout](cmdlets/Get-NmeHostPoolSessionTimeout.md) |
 | PUT | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/session-timeout` | [Set-NmeHostPoolSessionTimeout](cmdlets/Set-NmeHostPoolSessionTimeout.md) |
 | GET | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/tag` | [Get-NmeHostPoolTag](cmdlets/Get-NmeHostPoolTag.md) |
@@ -143,6 +146,16 @@
 | PATCH | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/vm-deployment` | [Update-NmeHostPoolVMDeploymentProperty](cmdlets/Update-NmeHostPoolVMDeploymentProperty.md) |
 | GET | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/wvd` | [Get-NmeHostPoolAvdProperty](cmdlets/Get-NmeHostPoolAvdProperty.md) |
 | PATCH | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/wvd` | [Update-NmeHostPoolAvdProperty](cmdlets/Update-NmeHostPoolAvdProperty.md) |
+
+## Host Pool Scripted Action Profiles
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/hostpool-scripted-action-profiles` | [Get-NmeHostPoolScriptedActionProfile](cmdlets/Get-NmeHostPoolScriptedActionProfile.md) |
+| POST | `/api/v1/hostpool-scripted-action-profiles` | [New-NmeHostPoolScriptedActionProfile](cmdlets/New-NmeHostPoolScriptedActionProfile.md) |
+| DELETE | `/api/v1/hostpool-scripted-action-profiles/{id}` | [Remove-NmeHostPoolScriptedActionProfile](cmdlets/Remove-NmeHostPoolScriptedActionProfile.md) |
+| GET | `/api/v1/hostpool-scripted-action-profiles/{id}` | [Get-NmeHostPoolScriptedActionProfile](cmdlets/Get-NmeHostPoolScriptedActionProfile.md) |
+| PATCH | `/api/v1/hostpool-scripted-action-profiles/{id}` | [Update-NmeHostPoolScriptedActionProfile](cmdlets/Update-NmeHostPoolScriptedActionProfile.md) |
 
 ## Image
 
@@ -248,8 +261,11 @@
 
 | Method | Endpoint | Cmdlet |
 |--------|----------|--------|
-| GET | `/api/v1/scripted-actions-group` | [Get-NmeScriptedActionsGroup](cmdlets/Get-NmeScriptedActionsGroup.md) |
-| GET | `/api/v1/scripted-actions-group/{id}` | [Get-NmeScriptedActionsGroup](cmdlets/Get-NmeScriptedActionsGroup.md) |
+| GET | `/api/v1/scripted-actions-groups` | [Get-NmeScriptedActionsGroup](cmdlets/Get-NmeScriptedActionsGroup.md) |
+| POST | `/api/v1/scripted-actions-groups` | [New-NmeScriptedActionsGroup](cmdlets/New-NmeScriptedActionsGroup.md) |
+| DELETE | `/api/v1/scripted-actions-groups/{id}` | [Remove-NmeScriptedActionsGroup](cmdlets/Remove-NmeScriptedActionsGroup.md) |
+| GET | `/api/v1/scripted-actions-groups/{id}` | [Get-NmeScriptedActionsGroup](cmdlets/Get-NmeScriptedActionsGroup.md) |
+| PATCH | `/api/v1/scripted-actions-groups/{id}` | [Update-NmeScriptedActionsGroup](cmdlets/Update-NmeScriptedActionsGroup.md) |
 
 ## Secure Variables
 
@@ -312,7 +328,9 @@
 
 | Method | Endpoint | Cmdlet |
 |--------|----------|--------|
+| GET | `/api/v1/subscriptions` | [Get-NmeLinkedSubscription](cmdlets/Get-NmeLinkedSubscription.md) |
 | POST | `/api/v1/subscriptions` | [New-NmeLinkedSubscription](cmdlets/New-NmeLinkedSubscription.md) |
+| GET | `/api/v1/subscriptions/{subscriptionId}` | [Get-NmeLinkedSubscription](cmdlets/Get-NmeLinkedSubscription.md) |
 | PATCH | `/api/v1/subscriptions/{subscriptionId}` | [Update-NmeLinkedSubscription](cmdlets/Update-NmeLinkedSubscription.md) |
 
 ## Test
@@ -343,6 +361,12 @@
 | GET | `/api/v1/user-cost-attribution/configuration/{id}/report/{year}/{month}/export` | [Get-NmeUserCostAttributionConfigurationReportExportAsCsv](cmdlets/Get-NmeUserCostAttributionConfigurationReportExportAsCsv.md) |
 | POST | `/api/v1/user-cost-attribution/configuration/{id}/report/{year}/{month}/export` | [Invoke-NmeUserCostAttributionConfigurationReportExport](cmdlets/Invoke-NmeUserCostAttributionConfigurationReportExport.md) |
 | GET | `/api/v1/user-cost-attribution/export/{exportId}` | [Get-NmeUserCostAttributionConfigurationReportExport](cmdlets/Get-NmeUserCostAttributionConfigurationReportExport.md) |
+
+## User Entitlement
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/tenant/{tenantId}/user-entitlement/{userIdOrUpn}` | [Get-NmeUserEntitlement](cmdlets/Get-NmeUserEntitlement.md) |
 
 ## User Session
 
@@ -469,6 +493,13 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeHostPoolReimageParamsModel](models/New-NmeHostPoolReimageParamsModel.md) | Create an in-memory object for HostPoolReimageParams. |
 | [New-NmeHostPoolReimageRunModel](models/New-NmeHostPoolReimageRunModel.md) | Create an in-memory object for HostPoolReimageRun. |
 | [New-NmeHostPoolReimageScheduleModel](models/New-NmeHostPoolReimageScheduleModel.md) | Create an in-memory object for HostPoolReimageSchedule. |
+| [New-NmeHostPoolScriptedActionProfileConfigurationCreateModel](models/New-NmeHostPoolScriptedActionProfileConfigurationCreateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileConfigurationCreate. |
+| [New-NmeHostPoolScriptedActionProfileConfigurationsCreateModel](models/New-NmeHostPoolScriptedActionProfileConfigurationsCreateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileConfigurationsCreate. |
+| [New-NmeHostPoolScriptedActionProfileConfigurationsUpdateModel](models/New-NmeHostPoolScriptedActionProfileConfigurationsUpdateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileConfigurationsUpdate. |
+| [New-NmeHostPoolScriptedActionProfileConfigurationUpdateModel](models/New-NmeHostPoolScriptedActionProfileConfigurationUpdateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileConfigurationUpdate. |
+| [New-NmeHostPoolScriptedActionProfileCreateModel](models/New-NmeHostPoolScriptedActionProfileCreateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileCreate. |
+| [New-NmeHostPoolScriptedActionProfileUpdateModel](models/New-NmeHostPoolScriptedActionProfileUpdateModel.md) | Create an in-memory object for HostPoolScriptedActionProfileUpdate. |
+| [New-NmeHostPoolScriptedActionsAssignmentModel](models/New-NmeHostPoolScriptedActionsAssignmentModel.md) | Create an in-memory object for HostPoolScriptedActionsAssignment. |
 | [New-NmeHostPoolScriptedActionsConfigModel](models/New-NmeHostPoolScriptedActionsConfigModel.md) | Create an in-memory object for HostPoolScriptedActionsConfig. |
 | [New-NmeHostPoolScriptedActionsModel](models/New-NmeHostPoolScriptedActionsModel.md) | Create an in-memory object for HostPoolScriptedActions. |
 | [New-NmeHostPoolScriptRunModel](models/New-NmeHostPoolScriptRunModel.md) | Create an in-memory object for HostPoolScriptRun. |
@@ -546,6 +577,11 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeScriptedActionCreateModel](models/New-NmeScriptedActionCreateModel.md) | Create an in-memory object for ScriptedActionCreate. |
 | [New-NmeScriptedActionDeleteModel](models/New-NmeScriptedActionDeleteModel.md) | Create an in-memory object for ScriptedActionDelete. |
 | [New-NmeScriptedActionOptionModel](models/New-NmeScriptedActionOptionModel.md) | Create an in-memory object for ScriptedActionOption. |
+| [New-NmeScriptedActionsGroupCreateModel](models/New-NmeScriptedActionsGroupCreateModel.md) | Create an in-memory object for ScriptedActionsGroupCreate. |
+| [New-NmeScriptedActionsGroupDeleteModel](models/New-NmeScriptedActionsGroupDeleteModel.md) | Create an in-memory object for ScriptedActionsGroupDelete. |
+| [New-NmeScriptedActionsGroupItemCreateModel](models/New-NmeScriptedActionsGroupItemCreateModel.md) | Create an in-memory object for ScriptedActionsGroupItemCreate. |
+| [New-NmeScriptedActionsGroupItemUpdateModel](models/New-NmeScriptedActionsGroupItemUpdateModel.md) | Create an in-memory object for ScriptedActionsGroupItemUpdate. |
+| [New-NmeScriptedActionsGroupUpdateModel](models/New-NmeScriptedActionsGroupUpdateModel.md) | Create an in-memory object for ScriptedActionsGroupUpdate. |
 | [New-NmeScriptedActionUpdateModel](models/New-NmeScriptedActionUpdateModel.md) | Create an in-memory object for ScriptedActionUpdate. |
 | [New-NmeScriptRunParamsModel](models/New-NmeScriptRunParamsModel.md) | Create an in-memory object for ScriptRunParams. |
 | [New-NmeSecureVariableCreateOrUpdateModel](models/New-NmeSecureVariableCreateOrUpdateModel.md) | Create an in-memory object for SecureVariableCreateOrUpdate. |

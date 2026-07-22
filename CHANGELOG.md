@@ -1,5 +1,36 @@
 # Changelog
 
+## 1.2.0-preview
+
+### New cmdlets
+
+#### Host Pool Scripted Actions
+- `Get-NmeHostPoolScriptedAction`
+- `Get-NmeHostPoolScriptedActionProfile`
+- `New-NmeHostPoolScriptedActionProfile`
+- `Update-NmeHostPoolScriptedAction`
+- `Update-NmeHostPoolScriptedActionProfile`
+- `Remove-NmeHostPoolScriptedAction`
+- `Remove-NmeHostPoolScriptedActionProfile`
+
+#### Scripted Actions Groups
+- `New-NmeScriptedActionsGroup`
+- `Update-NmeScriptedActionsGroup`
+- `Remove-NmeScriptedActionsGroup`
+
+#### Other
+- `Get-NmeLinkedSubscription`
+- `Get-NmeUserEntitlement`
+
+### Changes to existing cmdlets
+- `New-NmeDynamicPoolConfigurationModel` - Added `HostPoolSizingMeasureType` parameter
+- `Set-NmeHostPoolAutoScale` - Added `HostPoolSizingMeasureType` parameter
+- `New-NmeVmSecurityProfileModel` - Added `ConfidentialDiskEncryption`, `DiskEncryptionSetsIds`, `EncryptionAtHost`, `IntegrityMonitoring` parameters
+- `New-NmeImageFromLibraryCreateParamsModel` - Added `SecurityProfileConfidentialDiskEncryption`, `SecurityProfileDiskEncryptionSetsIds`, `SecurityProfileEncryptionAtHost`, `SecurityProfileIntegrityMonitoring` parameters
+
+> [!NOTE]
+> Compatible with NME 8.1.0 REST API
+
 ## 1.1.1-preview
 
 - Added field descriptions

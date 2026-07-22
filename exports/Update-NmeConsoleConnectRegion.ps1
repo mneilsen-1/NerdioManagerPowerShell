@@ -16,7 +16,7 @@ function Update-NmeConsoleConnectRegion {
 [CmdletBinding(DefaultParameterSetName='UpdateExpanded', PositionalBinding=$false, SupportsShouldProcess, ConfirmImpact='Medium')]
 param(
     [Parameter(Mandatory)]
-    [NmePowershell.PSArgumentCompleterAttribute("US", "EU", "CA", "AU", "UK")]
+    [NmePowershell.PSArgumentCompleterAttribute("US", "EU", "CA", "AU", "UK", "JP")]
     [NmePowershell.Category('Path')]
     [System.String]
     # .

@@ -924,6 +924,28 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.AppGroupEntitlement</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.AppGroupEntitlement#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AppGroupId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AppGroupId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.AppGroupItem</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.AppGroupItem#Multiple</TypeName>
@@ -2216,6 +2238,34 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.AvdHostPoolEntitlement</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.AvdHostPoolEntitlement#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>HostPoolId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>WorkspaceId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>HostPoolId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>WorkspaceId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.AzureFilesAutoscaleConfig</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.AzureFilesAutoscaleConfig#Multiple</TypeName>
@@ -3082,6 +3132,9 @@
             <Label>HostPoolCapacity</Label>
           </TableColumnHeader>
           <TableColumnHeader>
+            <Label>HostPoolSizingMeasureType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>IsEnabled</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -3138,6 +3191,9 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>HostPoolCapacity</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HostPoolSizingMeasureType</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>IsEnabled</PropertyName>
@@ -4740,6 +4796,208 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfile</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfile#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfileConfiguration</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfileConfiguration#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ActiveDirectoryId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ActiveDirectoryId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfileConfigurationCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfileConfigurationCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ActiveDirectoryId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ActiveDirectoryId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfileConfigurationUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfileConfigurationUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ActiveDirectoryId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ActiveDirectoryId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfileCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfileCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionProfileUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionProfileUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolScriptedActionsAssignment</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolScriptedActionsAssignment#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ProfileId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ProfileId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.HostPoolScriptedActionsConfig</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.HostPoolScriptedActionsConfig#Multiple</TypeName>
@@ -5829,6 +6087,52 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>Item</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.IntuneDeviceEntitlement</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.IntuneDeviceEntitlement#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AzureActiveDirectoryDeviceId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DeviceName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ManagedDeviceId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Platform</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>WindowsDeviceType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AzureActiveDirectoryDeviceId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DeviceName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ManagedDeviceId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Platform</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>WindowsDeviceType</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -6967,6 +7271,9 @@
             <Label>TenantId</Label>
           </TableColumnHeader>
           <TableColumnHeader>
+            <Label>UserIdOrUpn</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>Username</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -7062,6 +7369,9 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>TenantId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UserIdOrUpn</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Username</PropertyName>
@@ -9210,6 +9520,56 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.ScriptedActionsGroupCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ScriptedActionsGroupCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.ScriptedActionsGroupDelete</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ScriptedActionsGroupDelete#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Force</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Force</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.ScriptedActionsGroupItem</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.ScriptedActionsGroupItem#Multiple</TypeName>
@@ -9231,6 +9591,84 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>ScriptedActionId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.ScriptedActionsGroupItemCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ScriptedActionsGroupItemCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ScriptedActionId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ScriptedActionId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.ScriptedActionsGroupItemUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ScriptedActionsGroupItemUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ScriptedActionId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ScriptedActionId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.ScriptedActionsGroupUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ScriptedActionsGroupUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -11213,6 +11651,15 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>ConfidentialDiskEncryption</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EncryptionAtHost</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IntegrityMonitoring</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>SecureBootEnabled</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -11225,6 +11672,15 @@
         <TableRowEntries>
           <TableRowEntry>
             <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ConfidentialDiskEncryption</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EncryptionAtHost</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IntegrityMonitoring</PropertyName>
+              </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>SecureBootEnabled</PropertyName>
               </TableColumnItem>

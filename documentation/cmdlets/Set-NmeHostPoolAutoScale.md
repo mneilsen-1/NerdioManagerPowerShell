@@ -17,6 +17,7 @@ Update auto-scale config for ARM host pool
 | BurstCapacity | Int32 | Yes |  |
 | HostPoolCapacity | Int32 | Yes |  |
 | HostPoolName | String | Yes |  |
+| HostPoolSizingMeasureType | String | Yes | Values: `Count`, `Percent` |
 | IsEnabled | SwitchParameter | Yes |  |
 | IsSingleUserDesktop | SwitchParameter | Yes |  |
 | MinActiveHostsCount | Int32 | Yes |  |
@@ -130,6 +131,7 @@ Set-NmeHostPoolAutoScale `
     -BurstCapacity 2 `
     -HostPoolCapacity 5 `
     -HostPoolName "<HostPoolName>" `
+    -HostPoolSizingMeasureType "Count" `
     -MinActiveHostsCount 1 `
     -MultiTriggers "<MultiTriggers>" `
     -ReImageUsedHostsMode "Disabled" `
@@ -189,6 +191,7 @@ Set-NmeHostPoolAutoScale `
     -BurstCapacity 0 `
     -HostPoolCapacity 0 `
     -HostPoolName "<HostPoolName>" `
+    -HostPoolSizingMeasureType "Count" `
     -MinActiveHostsCount 0 `
     -MultiTriggers "<MultiTriggers>" `
     -PreStageHostEnable `
@@ -246,6 +249,7 @@ Set-NmeHostPoolAutoScale `
     -BurstCapacity 0 `
     -HostPoolCapacity 0 `
     -HostPoolName "<HostPoolName>" `
+    -HostPoolSizingMeasureType "Count" `
     -MinActiveHostsCount 0 `
     -MultiTriggers "<MultiTriggers>" `
     -PreStageHostEnable `

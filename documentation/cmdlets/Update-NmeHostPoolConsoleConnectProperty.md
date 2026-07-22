@@ -16,7 +16,7 @@ Update console connect properties for ARM host pool
 | ResourceGroup | String | Yes |  |
 | SubscriptionId | String | Yes |  |
 | Enable | SwitchParameter | No |  |
-| Region | String | No | Values: `US`, `EU`, `CA`, `AU`, `UK` |
+| Region | String | No | Values: `US`, `EU`, `CA`, `AU`, `UK`, `JP` |
 
 ## Examples
 

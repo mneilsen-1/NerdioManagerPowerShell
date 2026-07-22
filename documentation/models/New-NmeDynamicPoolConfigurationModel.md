@@ -12,6 +12,7 @@ Create an in-memory object for DynamicPoolConfiguration.
 | AutoHealEnable | Boolean | Yes |  |
 | BurstCapacity | Int32 | Yes |  |
 | HostPoolCapacity | Int32 | Yes |  |
+| HostPoolSizingMeasureType | String | Yes | Values: `Count`, `Percent` |
 | IsEnabled | Boolean | Yes |  |
 | IsSingleUserDesktop | Boolean | Yes |  |
 | MinActiveHostsCount | Int32 | Yes |  |
@@ -108,6 +109,7 @@ $model = New-NmeDynamicPoolConfigurationModel `
     -AutoHealEnable $true `
     -BurstCapacity 0 `
     -HostPoolCapacity 0 `
+    -HostPoolSizingMeasureType "Count" `
     -IsEnabled $true `
     -IsSingleUserDesktop $true `
     -MinActiveHostsCount 0 `

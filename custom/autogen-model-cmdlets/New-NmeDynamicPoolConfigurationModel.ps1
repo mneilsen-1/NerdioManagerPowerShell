@@ -139,6 +139,10 @@ function New-NmeDynamicPoolConfigurationModel {
         [Parameter(Mandatory)]
         [int]
         $HostPoolCapacity,
+        [Parameter(Mandatory)]
+        [NmePowershell.PSArgumentCompleterAttribute("Count", "Percent")]
+        [string]
+        $HostPoolSizingMeasureType,
         [Parameter()]
         [int]
         $HostUsageScaleCriteriaScaleInHostChangeCount,
@@ -425,6 +429,9 @@ function New-NmeDynamicPoolConfigurationModel {
         }
         if ($PSBoundParameters.ContainsKey('HostPoolCapacity')) {
             $Object.HostPoolCapacity = $HostPoolCapacity
+        }
+        if ($PSBoundParameters.ContainsKey('HostPoolSizingMeasureType')) {
+            $Object.HostPoolSizingMeasureType = $HostPoolSizingMeasureType
         }
         if ($PSBoundParameters.ContainsKey('HostUsageScaleCriteriaScaleInHostChangeCount')) {
             $Object.HostUsageScaleCriteriaScaleInHostChangeCount = $HostUsageScaleCriteriaScaleInHostChangeCount

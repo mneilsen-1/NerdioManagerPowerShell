@@ -37,6 +37,12 @@ param(
     ${HostPoolCapacity},
 
     [Parameter(Mandatory)]
+    [NmePowershell.PSArgumentCompleterAttribute("Count", "Percent")]
+    [NmePowershell.Category('Body')]
+    [System.String]
+    ${HostPoolSizingMeasureType},
+
+    [Parameter(Mandatory)]
     [NmePowershell.Category('Body')]
     [System.Boolean]
     ${IsEnabled},

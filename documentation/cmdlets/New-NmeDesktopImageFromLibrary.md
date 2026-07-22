@@ -45,7 +45,7 @@ New-NmeDesktopImageFromLibrary `
     -FailurePolicyRestart
 ```
 
-### Example 2: Create image with trusted launch in Azure compute gallery
+### Example 2: Create image with trusted launch in Azure compute gallery, with encryption at host enabled
 
 ```powershell
 $scriptedActions = New-NmeScriptedActionOptionModel `

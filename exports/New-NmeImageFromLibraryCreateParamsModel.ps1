@@ -174,6 +174,26 @@ param(
     [Parameter()]
     [NmePowershell.Category('Body')]
     [System.Boolean]
+    ${SecurityProfileConfidentialDiskEncryption},
+
+    [Parameter()]
+    [NmePowershell.Category('Body')]
+    [System.String[]]
+    ${SecurityProfileDiskEncryptionSetsIds},
+
+    [Parameter()]
+    [NmePowershell.Category('Body')]
+    [System.Boolean]
+    ${SecurityProfileEncryptionAtHost},
+
+    [Parameter()]
+    [NmePowershell.Category('Body')]
+    [System.Boolean]
+    ${SecurityProfileIntegrityMonitoring},
+
+    [Parameter()]
+    [NmePowershell.Category('Body')]
+    [System.Boolean]
     ${SecurityProfileSecureBootEnabled},
 
     [Parameter()]

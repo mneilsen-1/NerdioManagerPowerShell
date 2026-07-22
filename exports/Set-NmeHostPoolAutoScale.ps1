@@ -71,6 +71,13 @@ param(
     ${HostPoolCapacity},
 
     [Parameter(ParameterSetName='SetExpanded', Mandatory)]
+    [NmePowershell.PSArgumentCompleterAttribute("Count", "Percent")]
+    [NmePowershell.Category('Body')]
+    [System.String]
+    # .
+    ${HostPoolSizingMeasureType},
+
+    [Parameter(ParameterSetName='SetExpanded', Mandatory)]
     [NmePowershell.Category('Body')]
     [System.Management.Automation.SwitchParameter]
     # .

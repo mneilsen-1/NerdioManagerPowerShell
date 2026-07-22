@@ -105,6 +105,18 @@ function New-NmeImageFromLibraryCreateParamsModel {
         $ScriptedActions,
         [Parameter()]
         [bool]
+        $SecurityProfileConfidentialDiskEncryption,
+        [Parameter()]
+        [string[]]
+        $SecurityProfileDiskEncryptionSetsIds,
+        [Parameter()]
+        [bool]
+        $SecurityProfileEncryptionAtHost,
+        [Parameter()]
+        [bool]
+        $SecurityProfileIntegrityMonitoring,
+        [Parameter()]
+        [bool]
         $SecurityProfileSecureBootEnabled,
         [Parameter()]
         [NmePowershell.PSArgumentCompleterAttribute("None", "TrustedLaunch", "Confidential")]
@@ -219,6 +231,18 @@ function New-NmeImageFromLibraryCreateParamsModel {
         }
         if ($PSBoundParameters.ContainsKey('ScriptedActions')) {
             $Object.ScriptedActions = $ScriptedActions
+        }
+        if ($PSBoundParameters.ContainsKey('SecurityProfileConfidentialDiskEncryption')) {
+            $Object.SecurityProfileConfidentialDiskEncryption = $SecurityProfileConfidentialDiskEncryption
+        }
+        if ($PSBoundParameters.ContainsKey('SecurityProfileDiskEncryptionSetsIds')) {
+            $Object.SecurityProfileDiskEncryptionSetsIds = $SecurityProfileDiskEncryptionSetsIds
+        }
+        if ($PSBoundParameters.ContainsKey('SecurityProfileEncryptionAtHost')) {
+            $Object.SecurityProfileEncryptionAtHost = $SecurityProfileEncryptionAtHost
+        }
+        if ($PSBoundParameters.ContainsKey('SecurityProfileIntegrityMonitoring')) {
+            $Object.SecurityProfileIntegrityMonitoring = $SecurityProfileIntegrityMonitoring
         }
         if ($PSBoundParameters.ContainsKey('SecurityProfileSecureBootEnabled')) {
             $Object.SecurityProfileSecureBootEnabled = $SecurityProfileSecureBootEnabled

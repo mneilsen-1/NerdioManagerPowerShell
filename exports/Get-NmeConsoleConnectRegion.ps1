@@ -16,7 +16,7 @@ function Get-NmeConsoleConnectRegion {
 [CmdletBinding(DefaultParameterSetName='Get1', PositionalBinding=$false)]
 param(
     [Parameter(ParameterSetName='Get', Mandatory)]
-    [NmePowershell.PSArgumentCompleterAttribute("US", "EU", "CA", "AU", "UK")]
+    [NmePowershell.PSArgumentCompleterAttribute("US", "EU", "CA", "AU", "UK", "JP")]
     [NmePowershell.Category('Path')]
     [System.String]
     # .

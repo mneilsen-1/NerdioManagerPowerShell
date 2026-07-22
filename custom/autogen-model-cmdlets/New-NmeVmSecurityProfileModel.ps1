@@ -22,6 +22,18 @@ function New-NmeVmSecurityProfileModel {
 
         [Parameter()]
         [bool]
+        $ConfidentialDiskEncryption,
+        [Parameter()]
+        [string[]]
+        $DiskEncryptionSetsIds,
+        [Parameter()]
+        [bool]
+        $EncryptionAtHost,
+        [Parameter()]
+        [bool]
+        $IntegrityMonitoring,
+        [Parameter()]
+        [bool]
         $SecureBootEnabled,
         [Parameter(Mandatory)]
         [NmePowershell.PSArgumentCompleterAttribute("None", "TrustedLaunch", "Confidential")]
@@ -35,6 +47,18 @@ function New-NmeVmSecurityProfileModel {
     process {
         $Object = [NmePowershell.Models.VmSecurityProfile]::New()
 
+        if ($PSBoundParameters.ContainsKey('ConfidentialDiskEncryption')) {
+            $Object.ConfidentialDiskEncryption = $ConfidentialDiskEncryption
+        }
+        if ($PSBoundParameters.ContainsKey('DiskEncryptionSetsIds')) {
+            $Object.DiskEncryptionSetsIds = $DiskEncryptionSetsIds
+        }
+        if ($PSBoundParameters.ContainsKey('EncryptionAtHost')) {
+            $Object.EncryptionAtHost = $EncryptionAtHost
+        }
+        if ($PSBoundParameters.ContainsKey('IntegrityMonitoring')) {
+            $Object.IntegrityMonitoring = $IntegrityMonitoring
+        }
         if ($PSBoundParameters.ContainsKey('SecureBootEnabled')) {
             $Object.SecureBootEnabled = $SecureBootEnabled
         }

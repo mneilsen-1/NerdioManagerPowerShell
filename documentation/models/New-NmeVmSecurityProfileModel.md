@@ -9,6 +9,10 @@ Create an in-memory object for VmSecurityProfile.
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | SecurityType | String | Yes | Values: `None`, `TrustedLaunch`, `Confidential` |
+| ConfidentialDiskEncryption | Boolean | No |  |
+| DiskEncryptionSetsIds | Object | No |  |
+| EncryptionAtHost | Boolean | No |  |
+| IntegrityMonitoring | Boolean | No |  |
 | SecureBootEnabled | Boolean | No |  |
 | VTpmEnabled | Boolean | No |  |
 

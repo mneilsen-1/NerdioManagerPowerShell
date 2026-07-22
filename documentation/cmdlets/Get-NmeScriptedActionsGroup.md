@@ -2,9 +2,9 @@
 
 **Category:** Scripted Actions Groups
 
-**Endpoint:** `GET /api/v1/scripted-actions-group`
+**Endpoint:** `GET /api/v1/scripted-actions-groups`
 
-**Endpoint:** `GET /api/v1/scripted-actions-group/{id}`
+**Endpoint:** `GET /api/v1/scripted-actions-groups/{id}`
 
 ## Description
 
@@ -20,13 +20,13 @@ List scripted actions groups, or get a single group by Id.
 
 ## Examples
 
-### Example 1: GET /api/v1/scripted-actions-group
+### Example 1: GET /api/v1/scripted-actions-groups
 
 ```powershell
 Get-NmeScriptedActionsGroup
 ```
 
-### Example 2: GET /api/v1/scripted-actions-group/{id}
+### Example 2: GET /api/v1/scripted-actions-groups/{id}
 
 ```powershell
 Get-NmeScriptedActionsGroup -Id 0

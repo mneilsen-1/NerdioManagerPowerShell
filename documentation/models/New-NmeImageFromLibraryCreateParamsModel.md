@@ -38,6 +38,10 @@ Create an in-memory object for ImageFromLibraryCreateParams.
 | LocalAdminCredentialsPassword | String | No |  |
 | LocalAdminCredentialsUserName | String | No |  |
 | NoImageObjectRequired | Boolean | No |  |
+| SecurityProfileConfidentialDiskEncryption | Boolean | No |  |
+| SecurityProfileDiskEncryptionSetsIds | Object | No |  |
+| SecurityProfileEncryptionAtHost | Boolean | No |  |
+| SecurityProfileIntegrityMonitoring | Boolean | No |  |
 | SecurityProfileSecureBootEnabled | Boolean | No |  |
 | SecurityProfileSecurityType | String | No | Values: `None`, `TrustedLaunch`, `Confidential` |
 | SecurityProfileVTpmEnabled | Boolean | No |  |
