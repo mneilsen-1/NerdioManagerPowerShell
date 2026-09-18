@@ -30,8 +30,8 @@ Set-NmeAutoScaleProfileAssignment `
 
 ```powershell
 $scheduleDateRanges = New-NmeAutoScaleProfileScheduleDateRangeModel `
-    -EndDate "07/17/2026 21:54:11" `
-    -StartDate "07/07/2026 21:54:11"
+    -EndDate "02/15/2025 00:00:00" `
+    -StartDate "01/15/2025 10:30:00"
 Set-NmeAutoScaleProfileAssignment `
     -HostPoolId "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DesktopVirtualization/hostPools/{hostPoolName}" `
     -ProfileId 0 `

@@ -16,9 +16,9 @@ Partially update scripted action
 | Description | String | No |  |
 | ExecutionEnvironment | String | No | Values: `CustomScript`, `AzureAutomation` |
 | ExecutionMode | String | No | Values: `Combined`, `Individual`, `IndividualWithRestart` |
-| ExecutionTimeout | Int32 | No |  |
-| Name | String | No |  |
-| Script | String | No |  |
+| ExecutionTimeout | Int32 | No | Execution timeout in minutes. |
+| Name | String | No | Omit to keep the current name. |
+| Script | String | No | Omit to keep the current script. |
 | Tags | String[] | No |  |
 
 ## Examples

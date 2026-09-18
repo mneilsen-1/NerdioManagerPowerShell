@@ -17,7 +17,6 @@ Create an in-memory object for AppGroupCreate.
 $items = New-NmeAppGroupItemCreateModel `
     -CachedName "<CachedName>" `
     -ExternalId "<ExternalId>" `
-    -Reboot $true `
     -RepoId 0 `
     -Version "<Version>"
 $model = New-NmeAppGroupCreateModel `

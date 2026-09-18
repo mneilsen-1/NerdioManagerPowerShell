@@ -158,7 +158,7 @@ Set-NmeHostPoolAutoScale `
     -UserDrivenStopDelayMinutes 0 `
     -VMNamingMode "Reuse" `
     -VMTemplateDiskSize 128 `
-    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -VMTemplateNetworkId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Network/virtualNetworks/v-net-1" `
     -VMTemplatePrefix "prefix" `
     -VMTemplateResourceGroupId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1" `
@@ -220,7 +220,7 @@ Set-NmeHostPoolAutoScale `
     -UserDrivenStopDelayMinutes 10 `
     -VMNamingMode "Reuse" `
     -VMTemplateDiskSize 128 `
-    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -VMTemplateNetworkId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Network/virtualNetworks/v-net-1" `
     -VMTemplatePrefix "prefix" `
     -VMTemplateResourceGroupId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1" `
@@ -275,7 +275,7 @@ Set-NmeHostPoolAutoScale `
     -UserDrivenStopDelayMinutes 0 `
     -VMNamingMode "Reuse" `
     -VMTemplateDiskSize 128 `
-    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -VMTemplateImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -VMTemplateNetworkId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Network/virtualNetworks/v-net-1" `
     -VMTemplatePrefix "prefix" `
     -VMTemplateResourceGroupId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1" `

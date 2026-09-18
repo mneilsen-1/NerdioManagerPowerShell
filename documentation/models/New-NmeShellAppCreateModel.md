@@ -9,6 +9,7 @@ Create an in-memory object for ShellAppCreate.
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | Description | String | Yes |  |
+| DetectBeforeUnzip | Boolean | Yes |  |
 | DetectScript | String | Yes |  |
 | FileUnzip | Boolean | Yes |  |
 | InstallScript | String | Yes |  |
@@ -26,6 +27,7 @@ $versions = New-NmeShellAppVersionCreateModel `
     -Name "<Name>"
 $model = New-NmeShellAppCreateModel `
     -Description "<Description>" `
+    -DetectBeforeUnzip $true `
     -DetectScript "<DetectScript>" `
     -FileUnzip $true `
     -InstallScript "<InstallScript>" `

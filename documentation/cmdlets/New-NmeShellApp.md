@@ -13,6 +13,7 @@ Create Shell App
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | Description | String | Yes |  |
+| DetectBeforeUnzip | SwitchParameter | Yes |  |
 | DetectScript | String | Yes |  |
 | FileUnzip | SwitchParameter | Yes |  |
 | InstallScript | String | Yes |  |

@@ -1,5 +1,62 @@
 # Changelog
 
+## 1.3.0-preview
+
+### New cmdlets
+
+#### Capacity Reservation Groups
+- `Get-NmeLinkedCapacityReservationGroup`
+- `New-NmeLinkedCapacityReservationGroup`
+- `Remove-NmeLinkedCapacityReservationGroup`
+
+#### Cloud PC Alert Conditions
+- `Get-NmeCloudPcAlertCondition`
+- `New-NmeCloudPcAlertCondition`
+- `Update-NmeCloudPcAlertCondition`
+
+#### Dedicated Host Groups
+- `Get-NmeLinkedDedicatedHostGroup`
+- `Get-NmeLinkedDedicatedHostGroupHost`
+- `New-NmeLinkedDedicatedHostGroup`
+- `Remove-NmeLinkedDedicatedHostGroup`
+
+#### Host Pool RDP Profiles
+- `Get-NmeHostPoolRdpProfile`
+- `New-NmeHostPoolRdpProfile`
+- `Update-NmeHostPoolRdpProfile`
+- `Remove-NmeHostPoolRdpProfile`
+
+#### Host Pool VM Deployment Profiles
+- `Get-NmeHostPoolVMDeploymentProfile`
+- `New-NmeHostPoolVMDeploymentProfile`
+- `Update-NmeHostPoolVMDeploymentProfile`
+- `Remove-NmeHostPoolVMDeploymentProfile`
+
+#### Intune Alert Conditions
+- `Get-NmeIntuneAlertCondition`
+- `Update-NmeIntuneAlertCondition`
+
+#### Proximity Placement Groups
+- `Get-NmeLinkedProximityPlacementGroup`
+- `New-NmeLinkedProximityPlacementGroup`
+- `Remove-NmeLinkedProximityPlacementGroup`
+
+#### Signing Certificates
+- `Get-NmeLinkedSigningCertificate`
+- `Import-NmeLinkedSigningCertificate`
+- `New-NmeLinkedSigningCertificate`
+- `Update-NmeLinkedSigningCertificate`
+- `Remove-NmeLinkedSigningCertificate`
+
+### Changes to existing cmdlets
+- `New-NmeAnyAppScopeCreateModel` - Added `NgpGroupIds` and `NgpIds` parameters and NGP scope types
+- `New-NmeAppGroupItemCreateModel` - Added `AssignmentType` and `OnUpgradeFail` parameters; `Reboot` is no longer mandatory
+- `New-NmeShellAppCreateModel` - Added `DetectBeforeUnzip` parameter
+- `New-NmeShellAppUpdateModel` - Added `DetectBeforeUnzip` parameter
+
+> [!NOTE]
+> Compatible with NME 8.2.0 REST API
+
 ## 1.2.0-preview
 
 ### New cmdlets

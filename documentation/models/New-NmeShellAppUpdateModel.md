@@ -9,6 +9,7 @@ Create an in-memory object for ShellAppUpdate.
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | Description | String | No |  |
+| DetectBeforeUnzip | Boolean | No |  |
 | DetectScript | String | No |  |
 | FileUnzip | Boolean | No |  |
 | InstallScript | String | No |  |
@@ -22,6 +23,7 @@ Create an in-memory object for ShellAppUpdate.
 ```powershell
 $model = New-NmeShellAppUpdateModel `
     -Description "<Description>" `
+    -DetectBeforeUnzip $true `
     -DetectScript "<DetectScript>" `
     -FileUnzip $true `
     -InstallScript "<InstallScript>" `

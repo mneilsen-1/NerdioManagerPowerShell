@@ -10,9 +10,11 @@ Create an in-memory object for AppGroupItemCreate.
 |-----------|------|----------|-------------|
 | CachedName | String | Yes |  |
 | ExternalId | String | Yes |  |
-| Reboot | Boolean | Yes |  |
 | RepoId | Int32 | Yes |  |
 | Version | String | Yes |  |
+| AssignmentType | String | No | Values: `Available`, `Required` |
+| OnUpgradeFail | String | No | Values: `Reinstall`, `Fail` |
+| Reboot | Boolean | No |  |
 
 ## Usage
 
@@ -20,7 +22,6 @@ Create an in-memory object for AppGroupItemCreate.
 $model = New-NmeAppGroupItemCreateModel `
     -CachedName "<CachedName>" `
     -ExternalId "<ExternalId>" `
-    -Reboot $true `
     -RepoId 0 `
     -Version "<Version>"
 ```

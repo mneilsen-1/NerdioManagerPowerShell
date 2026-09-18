@@ -32,9 +32,9 @@ Update-NmeAppManagementAppGroup `
 $items = New-NmeAppGroupItemCreateModel `
     -CachedName "Microsoft .NET Runtime 8.0" `
     -ExternalId "Microsoft.DotNet.Runtime.8" `
-    -Reboot $true `
     -RepoId 1 `
-    -Version "8.0.0"
+    -Version "8.0.0" `
+    -Reboot $true
 Update-NmeAppManagementAppGroup `
     -AppGroupId 0 `
     -Items @($items)

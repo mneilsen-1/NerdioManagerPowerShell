@@ -54,6 +54,23 @@
 | POST | `/api/v1/auto-scale-profile/{profileId}/assignments` | [Set-NmeAutoScaleProfileAssignment](cmdlets/Set-NmeAutoScaleProfileAssignment.md) |
 | DELETE | `/api/v1/auto-scale-profile/{profileId}/assignments/{assignmentId}` | [Remove-NmeAutoScaleProfileAssignment](cmdlets/Remove-NmeAutoScaleProfileAssignment.md) |
 
+## Capacity Reservation Groups
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/capacity-reservation-groups` | [Get-NmeLinkedCapacityReservationGroup](cmdlets/Get-NmeLinkedCapacityReservationGroup.md) |
+| DELETE | `/api/v1/capacity-reservation-groups/{subscriptionId}/{resourceGroup}/{name}` | [Remove-NmeLinkedCapacityReservationGroup](cmdlets/Remove-NmeLinkedCapacityReservationGroup.md) |
+| GET | `/api/v1/capacity-reservation-groups/{subscriptionId}/{resourceGroup}/{name}` | [Get-NmeLinkedCapacityReservationGroup](cmdlets/Get-NmeLinkedCapacityReservationGroup.md) |
+| POST | `/api/v1/capacity-reservation-groups/{subscriptionId}/{resourceGroup}/{name}` | [New-NmeLinkedCapacityReservationGroup](cmdlets/New-NmeLinkedCapacityReservationGroup.md) |
+
+## Cloud PC Alert Conditions
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/cloud-pc/tenant/{tenantId}/alert-condition` | [Get-NmeCloudPcAlertCondition](cmdlets/Get-NmeCloudPcAlertCondition.md) |
+| POST | `/api/v1/cloud-pc/tenant/{tenantId}/alert-condition` | [New-NmeCloudPcAlertCondition](cmdlets/New-NmeCloudPcAlertCondition.md) |
+| PATCH | `/api/v1/cloud-pc/tenant/{tenantId}/alert-condition/{id}` | [Update-NmeCloudPcAlertCondition](cmdlets/Update-NmeCloudPcAlertCondition.md) |
+
 ## Console Connect
 
 | Method | Endpoint | Cmdlet |
@@ -63,6 +80,16 @@
 | GET | `/api/v1/console-connect/regional/{region}` | [Get-NmeConsoleConnectRegion](cmdlets/Get-NmeConsoleConnectRegion.md) |
 | PATCH | `/api/v1/console-connect/regional/{region}` | [Update-NmeConsoleConnectRegion](cmdlets/Update-NmeConsoleConnectRegion.md) |
 | POST | `/api/v1/console-connect/regional/{region}` | [Enable-NmeConsoleConnectRegion](cmdlets/Enable-NmeConsoleConnectRegion.md) |
+
+## Dedicated Host Groups
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/dedicated-host-groups` | [Get-NmeLinkedDedicatedHostGroup](cmdlets/Get-NmeLinkedDedicatedHostGroup.md) |
+| DELETE | `/api/v1/dedicated-host-groups/{subscriptionId}/{resourceGroup}/{name}` | [Remove-NmeLinkedDedicatedHostGroup](cmdlets/Remove-NmeLinkedDedicatedHostGroup.md) |
+| GET | `/api/v1/dedicated-host-groups/{subscriptionId}/{resourceGroup}/{name}` | [Get-NmeLinkedDedicatedHostGroup](cmdlets/Get-NmeLinkedDedicatedHostGroup.md) |
+| POST | `/api/v1/dedicated-host-groups/{subscriptionId}/{resourceGroup}/{name}` | [New-NmeLinkedDedicatedHostGroup](cmdlets/New-NmeLinkedDedicatedHostGroup.md) |
+| GET | `/api/v1/dedicated-host-groups/{subscriptionId}/{resourceGroup}/{name}/hosts` | [Get-NmeLinkedDedicatedHostGroupHost](cmdlets/Get-NmeLinkedDedicatedHostGroupHost.md) |
 
 ## Deployments
 
@@ -147,6 +174,16 @@
 | GET | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/wvd` | [Get-NmeHostPoolAvdProperty](cmdlets/Get-NmeHostPoolAvdProperty.md) |
 | PATCH | `/api/v1/arm/hostpool/{subscriptionId}/{resourceGroup}/{hostPoolName}/wvd` | [Update-NmeHostPoolAvdProperty](cmdlets/Update-NmeHostPoolAvdProperty.md) |
 
+## Host Pool RDP Profiles
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/hostpool-rdp-profiles` | [Get-NmeHostPoolRdpProfile](cmdlets/Get-NmeHostPoolRdpProfile.md) |
+| POST | `/api/v1/hostpool-rdp-profiles` | [New-NmeHostPoolRdpProfile](cmdlets/New-NmeHostPoolRdpProfile.md) |
+| DELETE | `/api/v1/hostpool-rdp-profiles/{id}` | [Remove-NmeHostPoolRdpProfile](cmdlets/Remove-NmeHostPoolRdpProfile.md) |
+| GET | `/api/v1/hostpool-rdp-profiles/{id}` | [Get-NmeHostPoolRdpProfile](cmdlets/Get-NmeHostPoolRdpProfile.md) |
+| PATCH | `/api/v1/hostpool-rdp-profiles/{id}` | [Update-NmeHostPoolRdpProfile](cmdlets/Update-NmeHostPoolRdpProfile.md) |
+
 ## Host Pool Scripted Action Profiles
 
 | Method | Endpoint | Cmdlet |
@@ -157,11 +194,28 @@
 | GET | `/api/v1/hostpool-scripted-action-profiles/{id}` | [Get-NmeHostPoolScriptedActionProfile](cmdlets/Get-NmeHostPoolScriptedActionProfile.md) |
 | PATCH | `/api/v1/hostpool-scripted-action-profiles/{id}` | [Update-NmeHostPoolScriptedActionProfile](cmdlets/Update-NmeHostPoolScriptedActionProfile.md) |
 
+## Host Pool VM Deployment Profiles
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/hostpool-vm-deployment-profiles` | [Get-NmeHostPoolVMDeploymentProfile](cmdlets/Get-NmeHostPoolVMDeploymentProfile.md) |
+| POST | `/api/v1/hostpool-vm-deployment-profiles` | [New-NmeHostPoolVMDeploymentProfile](cmdlets/New-NmeHostPoolVMDeploymentProfile.md) |
+| DELETE | `/api/v1/hostpool-vm-deployment-profiles/{id}` | [Remove-NmeHostPoolVMDeploymentProfile](cmdlets/Remove-NmeHostPoolVMDeploymentProfile.md) |
+| GET | `/api/v1/hostpool-vm-deployment-profiles/{id}` | [Get-NmeHostPoolVMDeploymentProfile](cmdlets/Get-NmeHostPoolVMDeploymentProfile.md) |
+| PATCH | `/api/v1/hostpool-vm-deployment-profiles/{id}` | [Update-NmeHostPoolVMDeploymentProfile](cmdlets/Update-NmeHostPoolVMDeploymentProfile.md) |
+
 ## Image
 
 | Method | Endpoint | Cmdlet |
 |--------|----------|--------|
 | GET | `/api/v1/image` | [Get-NmeImage](cmdlets/Get-NmeImage.md) |
+
+## Intune Alert Conditions
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/intune/tenant/{tenantId}/alert-condition` | [Get-NmeIntuneAlertCondition](cmdlets/Get-NmeIntuneAlertCondition.md) |
+| PATCH | `/api/v1/intune/tenant/{tenantId}/alert-condition/{id}` | [Update-NmeIntuneAlertCondition](cmdlets/Update-NmeIntuneAlertCondition.md) |
 
 ## Intune Device
 
@@ -224,6 +278,15 @@
 |--------|----------|--------|
 | GET | `/api/v1/portal/logo` | [Get-NmeLogo](cmdlets/Get-NmeLogo.md) |
 | PATCH | `/api/v1/portal/logo` | [Update-NmeLogo](cmdlets/Update-NmeLogo.md) |
+
+## Proximity Placement Groups
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/proximity-placement-groups` | [Get-NmeLinkedProximityPlacementGroup](cmdlets/Get-NmeLinkedProximityPlacementGroup.md) |
+| DELETE | `/api/v1/proximity-placement-groups/{subscriptionId}/{resourceGroup}/{name}` | [Remove-NmeLinkedProximityPlacementGroup](cmdlets/Remove-NmeLinkedProximityPlacementGroup.md) |
+| GET | `/api/v1/proximity-placement-groups/{subscriptionId}/{resourceGroup}/{name}` | [Get-NmeLinkedProximityPlacementGroup](cmdlets/Get-NmeLinkedProximityPlacementGroup.md) |
+| POST | `/api/v1/proximity-placement-groups/{subscriptionId}/{resourceGroup}/{name}` | [New-NmeLinkedProximityPlacementGroup](cmdlets/New-NmeLinkedProximityPlacementGroup.md) |
 
 ## RBAC roles
 
@@ -309,6 +372,17 @@
 | POST | `/api/v1/shell-app/{id}/version` | [New-NmeShellAppVersion](cmdlets/New-NmeShellAppVersion.md) |
 | DELETE | `/api/v1/shell-app/{id}/version/{name}` | [Remove-NmeShellAppVersion](cmdlets/Remove-NmeShellAppVersion.md) |
 | PATCH | `/api/v1/shell-app/{id}/version/{name}` | [Update-NmeShellAppVersion](cmdlets/Update-NmeShellAppVersion.md) |
+
+## Signing Certificates
+
+| Method | Endpoint | Cmdlet |
+|--------|----------|--------|
+| GET | `/api/v1/signing-certificates` | [Get-NmeLinkedSigningCertificate](cmdlets/Get-NmeLinkedSigningCertificate.md) |
+| POST | `/api/v1/signing-certificates` | [New-NmeLinkedSigningCertificate](cmdlets/New-NmeLinkedSigningCertificate.md) |
+| DELETE | `/api/v1/signing-certificates/{id}` | [Remove-NmeLinkedSigningCertificate](cmdlets/Remove-NmeLinkedSigningCertificate.md) |
+| GET | `/api/v1/signing-certificates/{id}` | [Get-NmeLinkedSigningCertificate](cmdlets/Get-NmeLinkedSigningCertificate.md) |
+| PATCH | `/api/v1/signing-certificates/{id}` | [Update-NmeLinkedSigningCertificate](cmdlets/Update-NmeLinkedSigningCertificate.md) |
+| POST | `/api/v1/signing-certificates/import` | [Import-NmeLinkedSigningCertificate](cmdlets/Import-NmeLinkedSigningCertificate.md) |
 
 ## Storage
 
@@ -452,11 +526,15 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeAzureFilesPreStageConfigUpdateModel](models/New-NmeAzureFilesPreStageConfigUpdateModel.md) | Create an in-memory object for AzureFilesPreStageConfigUpdate. |
 | [New-NmeAzureFilesScalingConfigModel](models/New-NmeAzureFilesScalingConfigModel.md) | Create an in-memory object for AzureFilesScalingConfig. |
 | [New-NmeAzureFilesScalingConfigUpdateModel](models/New-NmeAzureFilesScalingConfigUpdateModel.md) | Create an in-memory object for AzureFilesScalingConfigUpdate. |
+| [New-NmeCloudPcAlertConditionCreateModel](models/New-NmeCloudPcAlertConditionCreateModel.md) | Create an in-memory object for CloudPcAlertConditionCreate. |
+| [New-NmeCloudPcAlertConditionUpdateModel](models/New-NmeCloudPcAlertConditionUpdateModel.md) | Create an in-memory object for CloudPcAlertConditionUpdate. |
+| [New-NmeCloudPcAlertRuleConditionUpdateModel](models/New-NmeCloudPcAlertRuleConditionUpdateModel.md) | Create an in-memory object for CloudPcAlertRuleConditionUpdate. |
 | [New-NmeConsoleConnectConnectionModel](models/New-NmeConsoleConnectConnectionModel.md) | Create an in-memory object for ConsoleConnectConnection. |
 | [New-NmeConsoleConnectRegionEnableModel](models/New-NmeConsoleConnectRegionEnableModel.md) | Create an in-memory object for ConsoleConnectRegionEnable. |
 | [New-NmeConsoleConnectRegionUpdateModel](models/New-NmeConsoleConnectRegionUpdateModel.md) | Create an in-memory object for ConsoleConnectRegionUpdate. |
 | [New-NmeCredentialsModel](models/New-NmeCredentialsModel.md) | Create an in-memory object for Credentials. |
 | [New-NmeCustomScriptScheduleCreateModel](models/New-NmeCustomScriptScheduleCreateModel.md) | Create an in-memory object for CustomScriptScheduleCreate. |
+| [New-NmeDedicatedHostGroupLinkModel](models/New-NmeDedicatedHostGroupLinkModel.md) | Create an in-memory object for DedicatedHostGroupLink. |
 | [New-NmeDynamicPoolConfigurationModel](models/New-NmeDynamicPoolConfigurationModel.md) | Create an in-memory object for DynamicPoolConfiguration. |
 | [New-NmeDynamicPoolTriggerInfoModel](models/New-NmeDynamicPoolTriggerInfoModel.md) | Create an in-memory object for DynamicPoolTriggerInfo. |
 | [New-NmeExtensionsConfigurationModel](models/New-NmeExtensionsConfigurationModel.md) | Create an in-memory object for ExtensionsConfiguration. |
@@ -488,6 +566,8 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeHostPoolControlUpUpdateModel](models/New-NmeHostPoolControlUpUpdateModel.md) | Create an in-memory object for HostPoolControlUpUpdate. |
 | [New-NmeHostPoolFsLogixPropertiesModel](models/New-NmeHostPoolFsLogixPropertiesModel.md) | Create an in-memory object for HostPoolFsLogixProperties. |
 | [New-NmeHostPoolFsLogixUpdateModel](models/New-NmeHostPoolFsLogixUpdateModel.md) | Create an in-memory object for HostPoolFsLogixUpdate. |
+| [New-NmeHostPoolRdpProfileCreateModel](models/New-NmeHostPoolRdpProfileCreateModel.md) | Create an in-memory object for HostPoolRdpProfileCreate. |
+| [New-NmeHostPoolRdpProfileUpdateModel](models/New-NmeHostPoolRdpProfileUpdateModel.md) | Create an in-memory object for HostPoolRdpProfileUpdate. |
 | [New-NmeHostPoolRdpShortpathPropertiesModel](models/New-NmeHostPoolRdpShortpathPropertiesModel.md) | Create an in-memory object for HostPoolRdpShortpathProperties. |
 | [New-NmeHostPoolRdpUpdateModel](models/New-NmeHostPoolRdpUpdateModel.md) | Create an in-memory object for HostPoolRdpUpdate. |
 | [New-NmeHostPoolReimageParamsModel](models/New-NmeHostPoolReimageParamsModel.md) | Create an in-memory object for HostPoolReimageParams. |
@@ -510,6 +590,11 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeHostPoolTagsUpdateModel](models/New-NmeHostPoolTagsUpdateModel.md) | Create an in-memory object for HostPoolTagsUpdate. |
 | [New-NmeHostPoolTrackingModel](models/New-NmeHostPoolTrackingModel.md) | Create an in-memory object for HostPoolTracking. |
 | [New-NmeHostPoolUserSelfServiceUpdateModel](models/New-NmeHostPoolUserSelfServiceUpdateModel.md) | Create an in-memory object for HostPoolUserSelfServiceUpdate. |
+| [New-NmeHostPoolVmDeploymentProfileCertificatesModel](models/New-NmeHostPoolVmDeploymentProfileCertificatesModel.md) | Create an in-memory object for HostPoolVmDeploymentProfileCertificates. |
+| [New-NmeHostPoolVmDeploymentProfileConfigurationCreateModel](models/New-NmeHostPoolVmDeploymentProfileConfigurationCreateModel.md) | Create an in-memory object for HostPoolVmDeploymentProfileConfigurationCreate. |
+| [New-NmeHostPoolVmDeploymentProfileConfigurationUpdateModel](models/New-NmeHostPoolVmDeploymentProfileConfigurationUpdateModel.md) | Create an in-memory object for HostPoolVmDeploymentProfileConfigurationUpdate. |
+| [New-NmeHostPoolVmDeploymentProfileCreateModel](models/New-NmeHostPoolVmDeploymentProfileCreateModel.md) | Create an in-memory object for HostPoolVmDeploymentProfileCreate. |
+| [New-NmeHostPoolVmDeploymentProfileUpdateModel](models/New-NmeHostPoolVmDeploymentProfileUpdateModel.md) | Create an in-memory object for HostPoolVmDeploymentProfileUpdate. |
 | [New-NmeHostPoolVmDeploymentUpdateModel](models/New-NmeHostPoolVmDeploymentUpdateModel.md) | Create an in-memory object for HostPoolVmDeploymentUpdate. |
 | [New-NmeHostReimageParamsModel](models/New-NmeHostReimageParamsModel.md) | Create an in-memory object for HostReimageParams. |
 | [New-NmeHostReimageRunModel](models/New-NmeHostReimageRunModel.md) | Create an in-memory object for HostReimageRun. |
@@ -517,9 +602,14 @@ Model cmdlets create in-memory objects used as parameters for the action cmdlets
 | [New-NmeHostUsageModel](models/New-NmeHostUsageModel.md) | Create an in-memory object for HostUsage. |
 | [New-NmeImageFromLibraryCreateModel](models/New-NmeImageFromLibraryCreateModel.md) | Create an in-memory object for ImageFromLibraryCreate. |
 | [New-NmeImageFromLibraryCreateParamsModel](models/New-NmeImageFromLibraryCreateParamsModel.md) | Create an in-memory object for ImageFromLibraryCreateParams. |
+| [New-NmeIntuneAlertConditionUpdateModel](models/New-NmeIntuneAlertConditionUpdateModel.md) | Create an in-memory object for IntuneAlertConditionUpdate. |
 | [New-NmeJobFailurePolicyModel](models/New-NmeJobFailurePolicyModel.md) | Create an in-memory object for JobFailurePolicy. |
 | [New-NmeLinkedNetworkCreateModel](models/New-NmeLinkedNetworkCreateModel.md) | Create an in-memory object for LinkedNetworkCreate. |
 | [New-NmeLinkedResourceGroupCreateModel](models/New-NmeLinkedResourceGroupCreateModel.md) | Create an in-memory object for LinkedResourceGroupCreate. |
+| [New-NmeLinkedSigningCertificateCreateModel](models/New-NmeLinkedSigningCertificateCreateModel.md) | Create an in-memory object for LinkedSigningCertificateCreate. |
+| [New-NmeLinkedSigningCertificateDeleteModel](models/New-NmeLinkedSigningCertificateDeleteModel.md) | Create an in-memory object for LinkedSigningCertificateDelete. |
+| [New-NmeLinkedSigningCertificateImportModel](models/New-NmeLinkedSigningCertificateImportModel.md) | Create an in-memory object for LinkedSigningCertificateImport. |
+| [New-NmeLinkedSigningCertificateUpdateModel](models/New-NmeLinkedSigningCertificateUpdateModel.md) | Create an in-memory object for LinkedSigningCertificateUpdate. |
 | [New-NmeLinkedSubscriptionCreateModel](models/New-NmeLinkedSubscriptionCreateModel.md) | Create an in-memory object for LinkedSubscriptionCreate. |
 | [New-NmeLinkedSubscriptionUpdateModel](models/New-NmeLinkedSubscriptionUpdateModel.md) | Create an in-memory object for LinkedSubscriptionUpdate. |
 | [New-NmeMsixPackageUploadModel](models/New-NmeMsixPackageUploadModel.md) | Create an in-memory object for MsixPackageUpload. |

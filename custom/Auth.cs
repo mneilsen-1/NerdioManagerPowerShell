@@ -42,6 +42,8 @@ namespace NmePowershell
 
     public partial class Module
     {
+        private const string UserAgent = "Nerdio-PowerShell/1.3.0-preview";
+
         partial void CustomInit()
         {
             this._pipeline.Append(AddApiKey);
@@ -78,6 +80,7 @@ namespace NmePowershell
             }
 
             request.Headers.Add("Authorization", $"Bearer {accessToken}");
+            request.Headers.UserAgent.ParseAdd(UserAgent);
             request.RequestUri = request.RequestUri.PatchHost(baseUri);
 
             return await next.SendAsync(request, callback);

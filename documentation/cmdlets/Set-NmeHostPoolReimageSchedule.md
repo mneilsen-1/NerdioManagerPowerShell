@@ -52,7 +52,7 @@ Set-NmeHostPoolReimageSchedule `
     -ResourceGroup "<ResourceGroup>" `
     -ScheduleId 0 `
     -ScheduleRecurrenceType "Weekly" `
-    -ScheduleStartDate "07/08/2026 00:00:00" `
+    -ScheduleStartDate "02/15/2025 00:00:00" `
     -ScheduleStartHour 8 `
     -ScheduleStartMinutes 30 `
     -ScheduleTimeZoneId "Central Standard Time" `
@@ -62,7 +62,7 @@ Set-NmeHostPoolReimageSchedule `
     -MessagingDelayMinutes 10 `
     -MessagingMessage "Sorry for the interruption. We are doing some maintenance and need you to log out. We will be terminating your session in 10 minutes if you haven't logged out by then." `
     -ReimageParamDiskSize 128 `
-    -ReimageParamImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -ReimageParamImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -ReimageParamStorageType "StandardSSD_LRS" `
     -ReimageParamVMSize "Standard_D2s_v3" `
     -ScheduleDayOfWeek 1 `
@@ -78,7 +78,7 @@ Set-NmeHostPoolReimageSchedule `
     -ResourceGroup "<ResourceGroup>" `
     -ScheduleId 0 `
     -ScheduleRecurrenceType "Monthly" `
-    -ScheduleStartDate "07/08/2026 00:00:00" `
+    -ScheduleStartDate "02/15/2025 00:00:00" `
     -ScheduleStartHour 8 `
     -ScheduleStartMinutes 30 `
     -ScheduleTimeZoneId "Central Standard Time" `
@@ -88,7 +88,7 @@ Set-NmeHostPoolReimageSchedule `
     -MessagingDelayMinutes 10 `
     -MessagingMessage "Sorry for the interruption. We are doing some maintenance and need you to log out. We will be terminating your session in 10 minutes if you haven't logged out by then." `
     -ReimageParamDiskSize 128 `
-    -ReimageParamImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -ReimageParamImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -ReimageParamStorageType "StandardSSD_LRS" `
     -ReimageParamVMSize "Standard_D2s_v3" `
     -ScheduleDayOfWeek 1 `

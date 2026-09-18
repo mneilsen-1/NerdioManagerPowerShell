@@ -49,7 +49,7 @@ Update-NmeHostPoolUserSelfServiceProperty `
     -HostPoolName "<HostPoolName>" `
     -ResourceGroup "<ResourceGroup>" `
     -SubscriptionId "<SubscriptionId>" `
-    -AllowedImages @("MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest", "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Compute/galleries/image-gallery-name") `
+    -AllowedImages @("MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest", "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Compute/galleries/image-gallery-name") `
     -AllowReimageDesktops
 ```
 

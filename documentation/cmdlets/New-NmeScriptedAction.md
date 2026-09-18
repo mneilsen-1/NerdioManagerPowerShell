@@ -17,7 +17,7 @@ Create scripted action
 | Name | String | Yes |  |
 | Script | String | Yes |  |
 | Description | String | No |  |
-| ExecutionTimeout | Int32 | No |  |
+| ExecutionTimeout | Int32 | No | Execution timeout in minutes. |
 | Tags | String[] | No |  |
 
 ## Examples

@@ -279,10 +279,16 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>ExternalId</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -301,10 +307,16 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -331,10 +343,16 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>ExternalId</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -353,10 +371,16 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -565,6 +589,9 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>ExternalId</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -575,6 +602,9 @@
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -593,6 +623,9 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
@@ -603,6 +636,9 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -629,6 +665,9 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>ExternalId</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -639,6 +678,9 @@
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -657,6 +699,9 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
@@ -667,6 +712,9 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -953,10 +1001,16 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>CachedName</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>ExternalId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -972,10 +1026,16 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>CachedName</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -999,10 +1059,16 @@
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
+            <Label>AssignmentType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>CachedName</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>ExternalId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OnUpgradeFail</Label>
           </TableColumnHeader>
           <TableColumnHeader>
             <Label>Reboot</Label>
@@ -1018,10 +1084,16 @@
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
+                <PropertyName>AssignmentType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
                 <PropertyName>CachedName</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>ExternalId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>OnUpgradeFail</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Reboot</PropertyName>
@@ -2644,6 +2716,280 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.CapacityReservationGroup</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CapacityReservationGroup#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Location</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ResourceGroup</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SubscriptionId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Location</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ResourceGroup</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SubscriptionId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertCondition</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertCondition#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsPortalPopupNotificationEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsSystemRule</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SeverityType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TemplateType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsPortalPopupNotificationEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsSystemRule</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SeverityType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TemplateType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertConditionCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertConditionCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsPortalPopupNotificationEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SeverityType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TemplateType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsPortalPopupNotificationEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SeverityType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TemplateType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertConditionUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertConditionUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsPortalPopupNotificationEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SeverityType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsPortalPopupNotificationEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SeverityType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertRuleCondition</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertRuleCondition#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AggregationType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ThresholdValue</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AggregationType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ThresholdValue</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertRuleConditionDefinition</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertRuleConditionDefinition#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Category</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Operator</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Category</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Operator</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.CloudPcAlertRuleConditionUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.CloudPcAlertRuleConditionUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AggregationType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Category</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ThresholdValue</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AggregationType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Category</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ThresholdValue</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.ConsoleConnectConnection</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.ConsoleConnectConnection#Multiple</TypeName>
@@ -2815,6 +3161,80 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>AzureRegion</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.DedicatedHostGroup</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.DedicatedHostGroup#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AutomaticHostAssignment</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>AvailabilityZone</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>FaultDomainCount</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Location</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AutomaticHostAssignment</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>AvailabilityZone</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>FaultDomainCount</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Location</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.DedicatedHostGroupHost</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.DedicatedHostGroupHost#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -4634,6 +5054,114 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.HostPoolRdpProfile</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolRdpProfile#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsDefault</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Settings</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsDefault</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Settings</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolRdpProfileCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolRdpProfileCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>IsDefault</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Settings</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>IsDefault</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Settings</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolRdpProfileUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolRdpProfileUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>IsDefault</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Settings</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>IsDefault</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Settings</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.HostPoolRdpShortpathProperties</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.HostPoolRdpShortpathProperties#Multiple</TypeName>
@@ -5724,6 +6252,724 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfile</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfile#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileCertificates</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileCertificates#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ScriptSigningCertificateId</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ScriptSigningCertificateId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileConfiguration</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileConfiguration#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AlwaysPromptForPassword</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ApplyVirtualDesktopOptimizations</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>BootDiagEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceEnforcement</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceTimeout</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ConfidentialDiskEncryption</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostGroupId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableAppvClientService</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableHevc</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableTimezoneRedirection</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableVMDeallocation</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EncryptionAtHost</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EntraDeviceTimeoutInMinutes</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ForceVMRestart</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HciGpuAllocationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HibernationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallCertificates</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallGpuDrivers</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IntegrityMonitoring</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsAcceleratedNetworkingEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsShadowUsersEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PatchOrchestration</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PreferredDiskControllerType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RunAppPolicies</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecureBootEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecurityType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseAvailabilityZones</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseDedicatedHosts</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VMTimezone</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VTpmEnabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AlwaysPromptForPassword</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ApplyVirtualDesktopOptimizations</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>BootDiagEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceEnforcement</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceTimeout</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ConfidentialDiskEncryption</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostGroupId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableAppvClientService</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableHevc</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableTimezoneRedirection</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableVMDeallocation</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EncryptionAtHost</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EntraDeviceTimeoutInMinutes</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ForceVMRestart</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HciGpuAllocationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HibernationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallCertificates</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallGpuDrivers</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IntegrityMonitoring</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsAcceleratedNetworkingEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsShadowUsersEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PatchOrchestration</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PreferredDiskControllerType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>RunAppPolicies</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecureBootEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecurityType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseAvailabilityZones</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseDedicatedHosts</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VMTimezone</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VTpmEnabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileConfigurationCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileConfigurationCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AlwaysPromptForPassword</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ApplyVirtualDesktopOptimizations</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>BootDiagEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceEnforcement</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceTimeout</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ConfidentialDiskEncryption</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostGroupId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableAppvClientService</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableHevc</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableTimezoneRedirection</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableVMDeallocation</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EncryptionAtHost</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EntraDeviceTimeoutInMinutes</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ForceVMRestart</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HciGpuAllocationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HibernationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallCertificates</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallGpuDrivers</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IntegrityMonitoring</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsAcceleratedNetworkingEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsShadowUsersEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PatchOrchestration</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PreferredDiskControllerType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RunAppPolicies</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecureBootEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecurityType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseAvailabilityZones</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseDedicatedHosts</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VMTimezone</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VTpmEnabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AlwaysPromptForPassword</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ApplyVirtualDesktopOptimizations</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>BootDiagEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceEnforcement</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceTimeout</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ConfidentialDiskEncryption</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostGroupId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableAppvClientService</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableHevc</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableTimezoneRedirection</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableVMDeallocation</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EncryptionAtHost</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EntraDeviceTimeoutInMinutes</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ForceVMRestart</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HciGpuAllocationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HibernationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallCertificates</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallGpuDrivers</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IntegrityMonitoring</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsAcceleratedNetworkingEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsShadowUsersEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PatchOrchestration</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PreferredDiskControllerType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>RunAppPolicies</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecureBootEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecurityType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseAvailabilityZones</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseDedicatedHosts</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VMTimezone</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VTpmEnabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileConfigurationUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileConfigurationUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>AlwaysPromptForPassword</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ApplyVirtualDesktopOptimizations</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>BootDiagEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceEnforcement</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComplianceTimeout</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ConfidentialDiskEncryption</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostGroupId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DedicatedHostId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableAppvClientService</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableHevc</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableTimezoneRedirection</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EnableVMDeallocation</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EncryptionAtHost</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EntraDeviceTimeoutInMinutes</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ForceVMRestart</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HciGpuAllocationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HibernationMode</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallCertificates</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>InstallGpuDrivers</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IntegrityMonitoring</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsAcceleratedNetworkingEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsShadowUsersEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PatchOrchestration</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>PreferredDiskControllerType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RunAppPolicies</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecureBootEnabled</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SecurityType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseAvailabilityZones</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UseDedicatedHosts</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VMTimezone</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VTpmEnabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>AlwaysPromptForPassword</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ApplyVirtualDesktopOptimizations</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>BootDiagEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceEnforcement</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComplianceTimeout</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ConfidentialDiskEncryption</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostGroupId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DedicatedHostId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableAppvClientService</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableHevc</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableTimezoneRedirection</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EnableVMDeallocation</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EncryptionAtHost</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EntraDeviceTimeoutInMinutes</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ForceVMRestart</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HciGpuAllocationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HibernationMode</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallCertificates</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallGpuDrivers</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IntegrityMonitoring</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsAcceleratedNetworkingEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsShadowUsersEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PatchOrchestration</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>PreferredDiskControllerType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>RunAppPolicies</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecureBootEnabled</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SecurityType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseAvailabilityZones</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UseDedicatedHosts</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VMTimezone</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VTpmEnabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.HostPoolVMDeploymentProfileUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.HostPoolVMDeploymentProfileUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.HostPoolVMDeploymentUpdate</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.HostPoolVMDeploymentUpdate#Multiple</TypeName>
@@ -6087,6 +7333,74 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>Item</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.IntuneAlertCondition</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.IntuneAlertCondition#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RuleType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SeverityType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>RuleType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SeverityType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.IntuneAlertConditionUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.IntuneAlertConditionUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SeverityType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SeverityType</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -6481,6 +7795,170 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>IsDefault</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.LinkedSigningCertificate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.LinkedSigningCertificate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ExpireDate</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>KeyVaultId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ExpireDate</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>KeyVaultId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.LinkedSigningCertificateCreate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.LinkedSigningCertificateCreate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>KeyVaultId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>KeyVaultId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.LinkedSigningCertificateDelete</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.LinkedSigningCertificateDelete#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>DeleteCertificate</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Force</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>DeleteCertificate</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Force</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.LinkedSigningCertificateImport</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.LinkedSigningCertificateImport#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>CertificateBase64</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>KeyVaultId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Password</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>CertificateBase64</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>KeyVaultId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Password</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>NmePowershell.Models.LinkedSigningCertificateUpdate</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.LinkedSigningCertificateUpdate#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
@@ -8572,6 +10050,40 @@
       </TableControl>
     </View>
     <View>
+      <Name>NmePowershell.Models.ProximityPlacementGroup</Name>
+      <ViewSelectedBy>
+        <TypeName>NmePowershell.Models.ProximityPlacementGroup#Multiple</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Location</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Id</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Location</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
       <Name>NmePowershell.Models.RbacAssignment</Name>
       <ViewSelectedBy>
         <TypeName>NmePowershell.Models.RbacAssignment#Multiple</TypeName>
@@ -10351,6 +11863,9 @@
             <Label>Description</Label>
           </TableColumnHeader>
           <TableColumnHeader>
+            <Label>DetectBeforeUnzip</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>DetectScript</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -10386,6 +11901,9 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DetectBeforeUnzip</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>DetectScript</PropertyName>
@@ -10430,6 +11948,9 @@
             <Label>Description</Label>
           </TableColumnHeader>
           <TableColumnHeader>
+            <Label>DetectBeforeUnzip</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>DetectScript</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -10456,6 +11977,9 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DetectBeforeUnzip</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>DetectScript</PropertyName>
@@ -10494,6 +12018,9 @@
             <Label>Description</Label>
           </TableColumnHeader>
           <TableColumnHeader>
+            <Label>DetectBeforeUnzip</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
             <Label>DetectScript</Label>
           </TableColumnHeader>
           <TableColumnHeader>
@@ -10520,6 +12047,9 @@
             <TableColumnItems>
               <TableColumnItem>
                 <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DetectBeforeUnzip</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>DetectScript</PropertyName>

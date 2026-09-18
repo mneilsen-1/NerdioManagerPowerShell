@@ -12,6 +12,8 @@ Create an in-memory object for AnyAppActionCreate.
 | Name | String | Yes |  |
 | RepoId | Int32 | Yes |  |
 | Type | String | Yes | Values: `Install`, `Uninstall` |
+| AssignmentType | String | No | Values: `Available`, `Required` |
+| OnUpgradeFail | String | No | Values: `Reinstall`, `Fail` |
 | Reboot | Boolean | No |  |
 | Version | String | No |  |
 

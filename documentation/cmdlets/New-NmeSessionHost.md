@@ -47,7 +47,7 @@ When "AddSuffix" is true the host name will follow "Prefix" name forming.
 ```powershell
 New-NmeSessionHost `
     -HostDiskSize 128 `
-    -HostImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -HostImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -HostNetworkId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Network/virtualNetworks/v-net-1" `
     -HostPoolName "<HostPoolName>" `
     -HostStorageType "StandardSSD_LRS" `
@@ -69,7 +69,7 @@ New-NmeSessionHost `
 ```powershell
 New-NmeSessionHost `
     -HostDiskSize 128 `
-    -HostImage "MicrosoftWindowsDesktop/windows-11/win11-22h2-avd/latest" `
+    -HostImage "MicrosoftWindowsDesktop/windows-11/win11-24h2-avd/latest" `
     -HostNetworkId "/subscriptions/e0b52e85-7caf-4260-a772-c0d82e56d407/resourceGroups/resource-group-1/providers/Microsoft.Network/virtualNetworks/v-net-1" `
     -HostPoolName "<HostPoolName>" `
     -HostStorageType "StandardSSD_LRS" `

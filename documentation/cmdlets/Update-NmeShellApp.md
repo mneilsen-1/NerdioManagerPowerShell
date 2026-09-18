@@ -14,6 +14,7 @@ Edit Shell App
 |-----------|------|----------|-------------|
 | Id | Int32 | Yes |  |
 | Description | String | No |  |
+| DetectBeforeUnzip | SwitchParameter | No |  |
 | DetectScript | String | No |  |
 | FileUnzip | SwitchParameter | No |  |
 | InstallScript | String | No |  |
